@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* KAIRO Purple Theme */
+    --background: 270 100% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 248 73% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 248 70% 50%;
+    --primary-light: 248 90% 90%;
+
+    --secondary: 270 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 270 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 330 81% 72%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 270 30% 91%;
+    --input: 270 30% 91%;
+    --ring: 248 73% 60%;
+
+    --radius: 1.5rem;
+
+    /* Additional KAIRO colors */
+    --mint: 174 72% 56%;
+    --yellow: 48 96% 64%;
+    --blue: 213 94% 68%;
+    --pink: 340 90% 73%;
+    
+    /* Gradient */
+    --gradient-hero: linear-gradient(135deg, hsl(248, 73%, 60%) 0%, hsl(262, 83%, 58%) 100%);
+    
+    /* Shadows */
+    --shadow-card: 0 4px 24px rgba(108, 99, 255, 0.08);
+    --shadow-button: 0 4px 12px rgba(108, 99, 255, 0.15);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 248 50% 8%;
+    --foreground: 270 40% 98%;
+
+    --card: 248 40% 12%;
+    --card-foreground: 270 40% 98%;
+
+    --popover: 248 40% 12%;
+    --popover-foreground: 270 40% 98%;
+
+    --primary: 248 73% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 248 70% 70%;
+    --primary-light: 248 90% 20%;
+
+    --secondary: 248 32% 18%;
+    --secondary-foreground: 270 40% 98%;
+
+    --muted: 248 32% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 330 81% 72%;
+    --accent-foreground: 270 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 270 40% 98%;
+
+    --border: 248 32% 18%;
+    --input: 248 32% 18%;
+    --ring: 248 73% 70%;
+    
+    --mint: 174 72% 56%;
+    --yellow: 48 96% 64%;
+    --blue: 213 94% 68%;
+    --pink: 340 90% 73%;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(248, 73%, 60%) 0%, hsl(262, 83%, 58%) 100%);
+    --shadow-card: 0 4px 24px rgba(108, 99, 255, 0.15);
+    --shadow-button: 0 4px 12px rgba(108, 99, 255, 0.25);
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
