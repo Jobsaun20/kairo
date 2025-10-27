@@ -143,6 +143,16 @@ export function pickTodayTask(
 export function getCategoryIcon(category: string): string {
   const icons: Record<string, string> = {
     salud: '💪',
+    alimentacion: '🥗',
+    mental: '🧠',
+    finanzas: '💰',
+    relaciones: '👥',
+    carrera: '🎓',
+    reducir_habitos: '🚭',
+    organizacion: '📅',
+    autocuidado: '✨',
+    nuevo: '💡',
+    // Legacy support
     idioma: '🗣️',
     ahorro: '💰',
     enfoque: '🎯',
@@ -154,6 +164,16 @@ export function getCategoryIcon(category: string): string {
 export function getCategoryColor(category: string): string {
   const colors: Record<string, string> = {
     salud: 'mint',
+    alimentacion: 'green',
+    mental: 'purple',
+    finanzas: 'yellow',
+    relaciones: 'pink',
+    carrera: 'blue',
+    reducir_habitos: 'red',
+    organizacion: 'teal',
+    autocuidado: 'lavender',
+    nuevo: 'orange',
+    // Legacy support
     idioma: 'blue',
     ahorro: 'yellow',
     enfoque: 'pink',

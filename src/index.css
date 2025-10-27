@@ -46,6 +46,12 @@ All colors MUST be HSL.
     --yellow: 48 96% 64%;
     --blue: 213 94% 68%;
     --pink: 340 90% 73%;
+    --green: 142 71% 45%;
+    --purple: 262 83% 58%;
+    --red: 0 84% 60%;
+    --teal: 180 62% 45%;
+    --lavender: 270 50% 70%;
+    --orange: 24 95% 53%;
     
     /* Gradient */
     --gradient-hero: linear-gradient(135deg, hsl(248, 73%, 60%) 0%, hsl(262, 83%, 58%) 100%);
@@ -99,6 +105,12 @@ All colors MUST be HSL.
     --yellow: 48 96% 64%;
     --blue: 213 94% 68%;
     --pink: 340 90% 73%;
+    --green: 142 71% 45%;
+    --purple: 262 83% 58%;
+    --red: 0 84% 60%;
+    --teal: 180 62% 45%;
+    --lavender: 270 50% 70%;
+    --orange: 24 95% 53%;
     
     --gradient-hero: linear-gradient(135deg, hsl(248, 73%, 60%) 0%, hsl(262, 83%, 58%) 100%);
     --shadow-card: 0 4px 24px rgba(108, 99, 255, 0.15);

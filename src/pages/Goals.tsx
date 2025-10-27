@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Plus, Flame, Heart, Trophy, Calendar } from 'lucide-react';
-import { getCategoryIcon, getCategoryColor } from '@/lib/taskPlanner';
+import { getCategoryIcon, getCategoryColor } from '@/lib/categories';
 import { toast } from 'sonner';
 
 interface Goal {
